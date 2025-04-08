@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayTrack Pro💰</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://em-content.zobj.net/source/apple/419/money-bag_1f4b0.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>PayTrack Pro💰</h1>
+            <p>Your Professional Salary Calculator</p>
+        </header>
+        <main class="main-content">
+            <form id="salary-form">
+                <div class="input-group">
+                    <label for="hourly-rate">Amount Per Hour⌛:</label>
+                    <input type="number" id="hourly-rate" name="hourly-rate" required>
+                </div>
+                <div class="input-group">
+                    <label for="hours-worked">Hours Worked⚒️:</label>
+                    <input type="number" id="hours-worked" name="hours-worked" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="hours-worked">Days Worked💪🏻:</label>
+                    <input type="number" id="days-worked" name="days-worked" required>
+                </div>
+                <button type="submit" class="calculate-button">Calculate Total💸</button>
+            </form>
+
+
+
+            <div id="result" class="result">
+                
+                <!-- Total will appear here -->
+            </div>
+        </main>
+        <footer class="footer">
+            <p id="footer-message" class="footer-message">
+              
+                <!-- Message will go here -->
+            </p>
+        </footer>
+    </div>
+</body>
+
+
+
+
+
+
+
+<script src="app.js"></script>
+</html>
